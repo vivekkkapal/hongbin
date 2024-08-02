@@ -1,24 +1,30 @@
+/* reset style */
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+/* coustom font */
 @font-face {
     font-family: spacial;
     src: url("font.otf");
 }
 
 main{
+    /* responsive height width */
     height: 100vh;
     width: 100vw;
     background-color: yellow;
     background-image: url("hongbin-image.jpg");
     background-size: cover;
+
+    /* background size and properties; */
     background-position: center;
     background-repeat: no-repeat;
 }
 
+/* text center */
 h1{
     position: absolute;
     top: 50%;
@@ -28,6 +34,7 @@ h1{
     color: white;
 }
 
+/* Add color overlay */
 .overlay{
     width: 100%;
     height: 100%;
